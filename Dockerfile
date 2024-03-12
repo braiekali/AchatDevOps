@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-apline
-EXPOSE 8082
-ADD target/achat-1.0.1.jar.original achat-1.0.1.jar.original
-ENTRYPOINT ["java","-jar","/achat-1.0.1.jar.original"]
+EXPOSE 8089
+ADD target/achat-1.0.2.jar achat-1.0.2.jar
+ENTRYPOINT ["java","-jar","achat-1.0.2.jar"]
