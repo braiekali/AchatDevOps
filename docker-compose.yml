@@ -18,8 +18,8 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:mysql://mysqldb:3306/achatdb?createDatabaseIfNotExist=true
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=root
-      - "spring.jpa.hibernate.ddl-auto": "update"
-      - "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect"
+      # - "spring.jpa.hibernate.ddl-auto": "update"
+      # - "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect"
     restart: unless-stopped
     depends_on:
       - mysqldb
