@@ -19,7 +19,7 @@ import tn.esprit.rh.achat.repositories.ProduitRepository;
 import tn.esprit.rh.achat.repositories.StockRepository;
 import tn.esprit.rh.achat.services.ProduitServiceImpl;
 
-public class ProduitServiceTest {
+class ProduitServiceTest {
     @Mock
     ProduitRepository produitRepository;
     @Mock
