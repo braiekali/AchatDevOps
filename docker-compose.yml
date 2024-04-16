@@ -11,7 +11,7 @@ services:
     volumes:
       - db:/var/lib/mysql
   app-achat:
-    image: "nawres98/achat:1.0.1"
+    image: "sarrkach/achat:1.0.1"
     ports:
       - "8089:8089"
     environment:
